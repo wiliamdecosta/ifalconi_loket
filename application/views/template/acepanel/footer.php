@@ -51,6 +51,7 @@
 			jQuery(function($) {
 			    setInitialTheme();
 			    setTimeout( function(){
+			        ace.settings.main_container_fixed(null, true);
 			        $("body").show();
 			        loadContent('dashboard.php');
 			    }, 500);
@@ -84,8 +85,6 @@
 				$("#main-container").on(ace.click_event,function(){
 				    $("#sidebar").removeClass("display");
 				});
-				
-				ace.settings.main_container_fixed(null, true);
 				
 			});
 
