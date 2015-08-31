@@ -13,7 +13,7 @@
     
     <li class="nav-menu-content" title ="MANUAL PAYMENT" data-source="pay_process-manual_payment.php">
         <a href="#">
-            <i class="menu-icon fa fa-file"></i>
+            <i class="menu-icon glyphicon glyphicon-usd"></i>
         	<span class="menu-text"> <i> MANUAL PAYMENT </i></span>
         </a>
     </li>
